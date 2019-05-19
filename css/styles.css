@@ -1,0 +1,878 @@
+/*
+headings : #00658D
+bars/pics: #0092CC
+subheadings: #26667F
+
+*/
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+nav select {
+  display: none;
+}
+.button:hover {
+  background-color: grey;
+  color: #00658d;
+}
+.button{
+  background-color: #00658d;
+  color: white;
+}
+.subhead{
+  color: #26667F;
+}
+/*Lines beside headings*/
+h1:before,
+h1:after {
+ background-color: #000;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 10%;
+}
+h1:before {
+ right: 0.5em;
+ margin-left: -50%;
+}
+h1:after {
+ left: 0.5em;
+ margin-right: -50%;
+}
+
+.beginning{
+  background-image: url("https://students.cah.ucf.edu/~ch763237/portfolio%20project/img/backgrounds-blank-blue-953214.jpg");
+  width: 100%;
+}
+.me_img{
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  width: 30%;
+
+}
+.skills{
+  background-color: #d7d5d5;
+overflow: hidden;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+#about{
+  text-align: center;
+  width: 100%;
+
+}
+#projects{
+  text-align: center;
+
+}
+#skills{
+  text-align: center;
+
+}
+p{
+font-size: 30px;
+font-family: 'Merriweather', serif;
+line-height: 1.2;
+margin-left: 15px;
+margin-right: 15px;
+letter-spacing: 1.5px;
+
+}
+.surrounding{
+  margin-left: auto;
+  margin-right: auto;
+}
+div.about_pics{
+  font-size: 60px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  color: #0092CC;
+}
+/* (phones, 600px and down) */
+@media only screen and (max-width: 568px) {
+  .down{
+    padding-top: 7%;
+  }
+  h1{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+  }
+  #about{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  div.about_pics{
+    font-size: 60px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #0092CC;
+  }
+  div.about_pics{
+    font-size: 60px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #0092CC;
+  }
+  div.about_text{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.4;
+    margin-left: 15px;
+    margin-right: 15px;
+    letter-spacing: 1.5px;
+  }
+  #projects{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #skills{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  p{
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+  line-height: 1.2;
+  margin-left: 15px;
+  margin-right: 15px;
+  letter-spacing: 1.5px;
+
+  }
+  .para{
+  font-size: 25px;
+  font-family: 'Merriweather', serif !important;
+  line-height: 1.3;
+  margin-left: 15px;
+  margin-right: 15px;
+  letter-spacing: 1.5px;
+
+  }
+  p.first{
+   font-size: 45px;
+   text-align: center;
+   padding-top: 25px;
+   padding-bottom: 20px;
+  }
+  .port_img{
+   width: 1440px;
+   height: 515px;
+   margin-left: auto;
+   margin-right: auto;
+  }
+  h2{
+   font-size: 40px;
+   padding-bottom: 10px;
+   font-family: 'Open Sans', sans-serif;
+
+  }
+  li{
+   font-size: 20px;
+  }
+
+  .button {
+   border: none;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: block;
+   font-size: 18px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 15px;
+   margin-bottom: 15px;
+  }
+
+
+  h1 {
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #00658d;
+  font-size: 40px;
+  letter-spacing: normal;
+  }
+
+  .box_text{
+  font-size: 25px;
+  font-family: 'Merriweather', serif;
+  line-height: 1.7;
+  margin-left: 15px;
+  margin-right: 15px;
+  letter-spacing: 1.1px;
+  }
+  .works_text{
+  padding-bottom: 25px;
+  }
+  .div_stuff{
+    width: 80%;
+    overflow:hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    font-size: 40px;
+    padding-bottom: 15px;
+
+  }
+
+  .footer{
+    background-color: #333;
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 20px;
+
+  }
+
+}
+
+/* (600px and up) */
+@media only screen and (min-width: 568px) {
+  .down{
+    padding-top: 5%;
+  }
+  h1{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+  }
+  #about{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  div.about_pics{
+    font-size: 60px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #0092CC;
+  }
+  div.about_text{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.4;
+    margin-left: 15px;
+    margin-right: 15px;
+    letter-spacing: 1.5px;
+  }
+  #projects{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #skills{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  p{
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+  line-height: 1.2;
+  margin-left: 15px;
+  margin-right: 15px;
+  letter-spacing: 1.5px;
+
+  }
+  .para{
+  font-size: 25px;
+  font-family: 'Merriweather', serif !important;
+  line-height: 1.2;
+  margin-left: 15px;
+  margin-right: 15px;
+  letter-spacing: 1.5px;
+
+  }
+  p.first{
+   font-size: 50px;
+   padding-top: 25px;
+   padding-bottom: 20px;
+  }
+  .port_img{
+   width: 1440px;
+   height: 515px;
+   margin-left: auto;
+   margin-right: auto;
+  }
+  h2{
+   font-size: 40px;
+   padding-bottom: 10px;
+   font-family: 'Open Sans', sans-serif;
+
+  }
+  li{
+   font-size: 20px;
+  }
+
+  .button {
+   border: none;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: block;
+   font-size: 18px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 15px;
+   margin-bottom: 15px;
+  }
+
+
+  h1 {
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #00658d;
+  font-size: 40px;
+  letter-spacing: normal;
+  }
+
+  .box_text{
+  font-size: 25px;
+  font-family: 'Merriweather', serif;
+  line-height: 1.7;
+  margin-left: 15px;
+  margin-right: 15px;
+  letter-spacing: 1.1px;
+  }
+  .works_text{
+  padding-bottom: 25px;
+  }
+  .div_stuff{
+    width: 80%;
+    overflow:hidden;
+    padding-left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    font-size: 40px;
+    padding-bottom: 15px;
+
+
+  }
+
+
+
+  .footer{
+    background-color: #333;
+    font-family: 'Merriweather', serif;
+    height: 55px;
+    color: white;
+    font-size: 20px;
+
+
+  }
+
+}
+
+/* (768px and up) */
+@media only screen and (min-width: 768px) {
+  h1{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+  }
+  #about{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  div.about_pics{
+    font-size: 60px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #0092CC;
+  }
+  div.about_text{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.4;
+    margin-left: 15px;
+    margin-right: 15px;
+    letter-spacing: 1.5px;
+  }
+  #projects{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #skills{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+p{
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+  line-height: 1.7;
+  margin-left: 15px;
+  margin-right: 15px;
+  letter-spacing: 1.5px;
+
+}
+.para{
+  font-size: 30px;
+  font-family: 'Merriweather', serif !important;
+  line-height: 1.3;
+  margin-left: 15px;
+  margin-right: 15px;
+  letter-spacing: 1.5px;
+
+}
+ p.first{
+   font-size: 50px;
+   text-align: center;
+   padding-top: 25px;
+   padding-bottom: 20px;
+ }
+ .port_img{
+   width: 1440px;
+   height: 515px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ h2{
+   font-size: 40px;
+   padding-bottom: 10px;
+   font-family: 'Open Sans', sans-serif;
+
+ }
+ li{
+   font-size: 20px;
+ }
+ .div_stuff{
+   width: 40%;
+   float: left;
+   overflow:hidden;
+   padding-left: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 30px;
+   font-size: 40px;
+
+
+ }
+ .button {
+   border: none;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: block;
+   font-size: 18px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 15px;
+   margin-bottom: 15px;
+ }
+
+
+ h1 {
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #00658d;
+  font-size: 40px;
+  letter-spacing: normal;
+ }
+
+.box_text{
+  font-size: 25px;
+  font-family: 'Merriweather', serif;
+  line-height: 1.7;
+  margin-left: 15px;
+  margin-right: 15px;
+  letter-spacing: 1.1px;
+}
+.works_text{
+  padding-bottom: 25px;
+}
+
+  #about{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #projects{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #skills{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .div_stuff{
+    width: 46%;
+    float: left;
+    overflow:hidden;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    font-size: 40px;
+
+
+  }
+  .button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+
+  .footer{
+    background-color: #333;
+    font-family: 'Merriweather', serif;
+    height: 55px;
+    color: white;
+    font-size: 20px;
+
+
+  }
+
+}
+
+/* (992px and up) */
+@media only screen and (min-width: 1024px) {
+  .down{
+    padding-top: 1%;
+  }
+  h1{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+  }
+  #about{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+  div.about_pics{
+    font-size: 70px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #0092CC;
+  }
+  div.about_text{
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.7;
+    margin-left: 15px;
+    margin-right: 15px;
+    letter-spacing: 1.5px;
+  }
+  #projects{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #skills{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+p{
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+  line-height: 1.7;
+  margin-left: 15px;
+  margin-right: 15px;
+  letter-spacing: 1.5px;
+
+}
+.para{
+  font-size: 30px;
+  font-family: 'Merriweather', serif !important;
+  line-height: 1.3;
+  margin-left: 15px;
+  margin-right: 15px;
+  letter-spacing: 1.5px;
+
+}
+ p.first{
+   font-size: 60px;
+   text-align: center;
+   padding-top: 50px;
+
+   padding-bottom: 25px;
+ }
+ .port_img{
+   width: 1440px;
+   height: 515px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ h2{
+   font-size: 40px;
+   padding-bottom: 10px;
+   font-family: 'Open Sans', sans-serif;
+
+ }
+ li{
+   font-size: 20px;
+ }
+ .div_stuff{
+   width: 40%;
+   float: left;
+   overflow:hidden;
+   padding-left: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 30px;
+   font-size: 40px;
+
+
+ }
+ .button {
+   border: none;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: block;
+   font-size: 18px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 15px;
+   margin-bottom: 15px;
+ }
+
+
+ h1 {
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #00658d;
+  font-size: 50px;
+
+ }
+
+.box_text{
+  font-size: 25px;
+  font-family: 'Merriweather', serif;
+  line-height: 1.7;
+  margin-left: 15px;
+  margin-right: 15px;
+  letter-spacing: 1.1px;
+}
+.works_text{
+  padding-bottom: 25px;
+}
+  #about{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #projects{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #skills{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  p.first{
+    font-size: 55px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+  .div_stuff{
+    width: 50%;
+    float: left;
+    overflow:hidden;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    font-size: 40px;
+
+
+  }
+  .button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+
+  h1 {
+   overflow: hidden;
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+   color: #00658d;
+   font-size: 50px;
+
+  }
+
+
+  .footer{
+    background-color: #333;
+    font-family: 'Merriweather', serif;
+    height: 55px;
+    color: white;
+    font-size: 20px;
+
+  }
+
+}
+
+/* (1200px and up) */
+@media only screen and (min-width: 1200px) {
+  h1{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+  }
+  #about{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+  div.about_pics{
+    font-size: 70px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #0092CC;
+  }
+  div.about_text{
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.7;
+    margin-left: 15px;
+    margin-right: 15px;
+    letter-spacing: 1.5px;
+  }
+  #projects{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #skills{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+p{
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+  line-height: 1.7;
+  margin-left: 15px;
+  margin-right: 15px;
+  letter-spacing: 1.5px;
+
+}
+.para{
+  font-size: 30px;
+  font-family: 'Merriweather', serif !important;
+  line-height: 1.4;
+  margin-left: 15px;
+  margin-right: 15px;
+  letter-spacing: 1.5px;
+
+}
+ p.first{
+   font-size: 60px;
+   text-align: center;
+   padding-top: 0px;
+
+   padding-bottom: 15px;
+ }
+ .port_img{
+   width: 1440px;
+   height: 515px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ h2{
+   font-size: 40px;
+   padding-bottom: 10px;
+   font-family: 'Open Sans', sans-serif;
+
+ }
+ li{
+   font-size: 20px;
+ }
+ .div_stuff{
+   width: 50%;
+   float: left;
+   overflow:hidden;
+   padding-left: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 30px;
+   font-size: 40px;
+
+
+ }
+ .button {
+   border: none;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: block;
+   font-size: 18px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 15px;
+   margin-bottom: 15px;
+ }
+
+
+ h1 {
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #00658d;
+  font-size: 50px;
+
+ }
+
+.box_text{
+  font-size: 25px;
+  font-family: 'Merriweather', serif;
+  line-height: 1.7;
+  margin-left: 15px;
+  margin-right: 15px;
+  letter-spacing: 1.1px;
+}
+.works_text{
+  padding-bottom: 25px;
+}
+ .footer{
+   background-color: #333;
+   font-family: 'Merriweather', serif;
+   color: white;
+   font-size: 20px;
+
+ }
+ .me_img{
+   margin-left: auto;
+   margin-right: auto;
+   height: 45%;
+   width: 25%;
+
+ }
+}
