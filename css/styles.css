@@ -33,6 +33,8 @@ font-size: 1.45rem;
 .subhead{
   color: #26667F;
 }
+.card-img-top{
+}
 /*Lines beside headings*/
 h1:before,
 h1:after {
