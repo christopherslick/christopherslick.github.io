@@ -12,9 +12,15 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    font-family: 'Merriweather', serif;
+
 }
 nav select {
   display: none;
+}
+.navbar-brand{
+  font-family: 'Indie Flower', cursive;
+font-size: 1.45rem;
 }
 .button:hover {
   background-color: grey;
@@ -873,6 +879,16 @@ p{
    margin-right: auto;
    height: 45%;
    width: 25%;
+
+ }
+ html,body
+ {
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+     font-family: 'Merriweather', serif;
 
  }
 }
