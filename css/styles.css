@@ -18,6 +18,10 @@ html,body
 nav select {
   display: none;
 }
+.card{
+  border: 2px solid #0092CC;
+
+}
 .navbar-brand{
   font-family: 'Indie Flower', cursive;
 font-size: 1.45rem;
@@ -107,6 +111,9 @@ div.about_pics{
 }
 /* (phones, 600px and down) */
 @media only screen and (max-width: 568px) {
+.card{
+  margin-top: 3%;
+}
   .down{
     padding-top: 7%;
   }
@@ -245,8 +252,11 @@ div.about_pics{
 
 }
 
-/* (600px and up) */
+/* (568px and up) */
 @media only screen and (min-width: 568px) {
+  .card{
+    margin-top: 4%;
+  }
   .down{
     padding-top: 5%;
   }
