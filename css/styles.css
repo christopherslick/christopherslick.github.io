@@ -20,18 +20,18 @@ nav select {
 }
 .card{
   border: 2px solid #0092CC;
+  margin-bottom: 2%;
 
 }
 .navbar-brand{
   font-family: 'Indie Flower', cursive;
 font-size: 1.45rem;
 }
-.button:hover {
-  background-color: grey;
-  color: #00658d;
+.nav-link:hover {
+  color: grey;
 }
-.button{
-  background-color: #00658d;
+.btn-primary{
+  background-color: #0092CC;
   color: white;
 }
 .subhead{
@@ -113,6 +113,9 @@ div.about_pics{
 @media only screen and (max-width: 568px) {
 .card{
   margin-top: 3%;
+}
+.btn{
+  margin-bottom: 2%;
 }
   .down{
     padding-top: 7%;
@@ -400,6 +403,9 @@ div.about_pics{
     padding-top: 20px;
     padding-bottom: 15px;
     margin: 0 auto;
+  }
+  .btn{
+    margin-bottom: 2%;
   }
   #about{
     padding-left: 5%;
@@ -902,5 +908,8 @@ p{
      overflow-x: hidden;
      font-family: 'Merriweather', serif;
 
+ }
+ .card-text{
+   font-size: 25px;
  }
 }
